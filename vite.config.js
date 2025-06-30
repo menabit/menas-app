@@ -1,10 +1,15 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  plugins: [],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html' // Ruta relativa simple
+      }
     }
+  },
+  server: {
+    port: 3000
   }
 })
