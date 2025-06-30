@@ -1,0 +1,589 @@
+/*------------------------FUENTES-------------------------------------------------*/
+@font-face {
+font-family: Bernard MT Condensed;
+src: url("../assets/fonts/Bernard MT Condensed.ttf") format(‘truetype’);
+}
+
+
+@font-face {
+font-family: BrannbollFet;
+src: url("../assets/fonts/BrannbollFet.ttf");
+}
+
+
+@font-face {
+font-family: Autograf;
+src: url("../assets/fonts/Autograf_PersonalUseOnly.ttf");
+}
+
+
+@font-face {
+font-family: Peax;
+src: url("../assets/fonts/PeaxWebdesignFreeIcons.ttf");
+}
+
+
+@font-face {
+font-family: Social;
+src: url("../assets/fonts/Social_shapes.ttf");
+}
+
+
+/*------------------------------CUERPO PRINCIPAL---------------------------------------------------*/
+
+
+body{
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#principal{    
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+p{
+    
+    font-size: 25px;
+    margin: 5px auto;
+    text-align: justify;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;  
+  
+}
+
+h2{
+
+    font-family: Peax;
+    
+    
+}
+
+hr{
+    width: 1280px;   
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1; /* Hace que el main ocupe el espacio restante */
+}
+
+/*---------------------------BANNERS-------------------------------*/
+
+.banner{
+    margin: 0 auto;
+    width: 1280px;
+    height: 450px;
+    margin-top: 10px;
+    
+}
+
+
+/*------------------------------------------MENÚS---------------------------------------*/
+
+/*------------------------------------Menú de opciones----------------------------------*/ 
+
+#cabeza1{
+   
+    background-color: rgba(206, 205, 204, 0.54);
+    border-bottom: 1px solid #cccccc;  
+}
+
+
+#menu-opciones{ 
+    width: 1280px;
+    height: 23px;    
+    overflow: hidden; 
+    margin: 0 auto;       
+}
+
+
+.menu1{
+    width: 0 auto;
+    margin:0px;
+    float: right; 
+    padding: 0px;  
+}
+
+
+.menu1 li{
+    width: 110px;
+    height: 100%;
+    margin: 0px; 
+    display: inline-block;         
+}
+
+
+.menu1 li a{
+    height: 23px;
+    line-height: 28px;
+    color: #626262;
+    display: block;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;  
+}
+
+
+.menu1 li a:hover{   
+    border-bottom: none;
+    color: dodgerblue;    
+}
+
+
+/*------------------------------Menú de pagina------------------------------------*/ 
+
+#cabeza2{
+    width: auto;
+    background-color: #fff;
+    border-bottom: 2px solid #3f4040;
+}
+
+
+#logo-menu-de-pagina{
+    font-family: "BrannbollFet";
+    font-size: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu-pagina{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1280px;
+    overflow: hidden;  
+}
+
+.menu2{
+    padding: 0px;
+    margin-top: 22px;
+    margin-bottom: 16px;  
+}
+
+
+.menu2 li:first-child { 
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+
+.menu2 li{       
+    display: inline-block;
+    width: 190px;;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.menu2 li a{
+    color: black;
+    display: block;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;  
+}
+
+
+.menu2 li a:hover{   
+    border-bottom: none;
+    color: dodgerblue;    
+}
+
+
+
+/*--------------------------------------ARTICULO BASE----------------------------------------------------*/
+
+.seccion{
+    width: 1280px;
+    height: 0 auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+#articulo{  
+    
+    width: 1230px;
+    height: 0 auto;  
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color: rgba(206, 205, 204, 0.54);
+    border: 1px solid #cccccc;  
+ /*   border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+}
+
+#articulo> h1{
+        font-family: "Bernard MT Condensed";
+        text-align: center;
+        font-size: 50px;
+        margin: 5px auto;
+        
+
+}
+
+
+
+
+
+
+/*------------------------------------MENÚ INTERACTIVO ELLAS ELLOS----------------------------------*/
+
+
+
+#ellas-ellos-imagen{
+   background-color: #9d9d9d;
+    margin: 0 auto;
+    height: 450px;
+    width: 1280px; 
+
+
+}
+
+#ellas-imagen{
+    background: url(../assets/img/ellas.jpg);
+    float: left;
+    height: 450px;
+    width: 640px; 
+
+}
+
+#ellas-imagen:hover{
+    background: url(../assets/img/ellas-hover.jpg);
+    height: 450px;
+    width: 640px;     
+}
+
+
+
+#ellos-imagen{
+    background: url(../assets/img/ellos.jpg);
+    float: right;
+    height: 450px;
+    width: 640px; 
+}
+
+
+#ellos-imagen:hover{
+    background: url(../assets/img/ellos-hover.jpg);
+    height: 450px;
+    width: 640px;     
+}
+
+/*-------------------------------IMAGEN LATERAL PAGINA PRINCIPAL--------------------------------*/
+
+#imagen-intermedio{
+    margin: 0 auto;
+    width: 1280px;
+    height: 604px;
+    margin-bottom: 10px;
+    
+}
+
+#imagen-lateral{
+    float: right;
+    width: 530px;
+    height: 0 auto;
+    
+    
+}
+
+#articulo-intermedio{
+    float: left;
+    width: 680px;
+    height: 0 auto;  
+
+    padding: 25px;
+  /* background-color: rgba(206, 205, 204, 0.54);*/
+    border: 1px solid #cccccc; 
+    
+}
+
+#linea-intermedio{
+   
+    width:100%;
+    height: 450px;
+    background-color: #cccccc;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+
+
+
+
+/*------------------------------------------MENÚ INFERIOR--------------------------------------------*/  
+
+#menu-inferior{
+    width: 1280px;
+    height: 0 auto;
+    margin-bottom: 10px;
+    margin: 0 auto;
+
+}
+
+#inferior{    
+    width: 1280px;
+    height: 0 auto;
+    display: inline-block;
+}
+
+.inferior{
+    width:1280px;   
+    height: 0 auto;
+    padding: 0 ;    
+}
+
+.inferior li {      
+    width: 420px;
+    height: 270px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+#imagen1{
+    background: url(../assets/img/Lateral1.jpg) no-repeat;
+    height: 270px;
+    width: 420px;
+    float: left;  
+    border-right: solid 2px #9a9a9a;
+}
+
+
+#imagen1:hover{
+
+    background: url(../assets/img/Lateral2.jpg)no-repeat;
+    height: 270px;
+    width: 420px;
+}
+
+
+#imagen2{
+    background: url(../assets/img/Lateral3.jpg) no-repeat;
+    height: 270px;
+    width: 420px;
+    float: left;
+    display: inline-block;
+    border-right: solid 2px #9a9a9a;
+}
+
+
+#imagen2:hover{
+
+    background: url(../assets/img/Lateral4.jpg)no-repeat;
+    height: 270px;
+    width: 420px;
+}
+
+
+#imagen3{
+    background: url(../assets/img/Lateral5.jpg) no-repeat;
+    height: 270px;
+    width: 420px;
+    float: right;
+    display: inline-block;
+}
+
+
+#imagen3:hover{
+
+    background: url(../assets/img/Lateral6.jpg)no-repeat;
+    height: 270px;
+    width: 420px;  
+}
+
+
+
+/*-------------------------------------PIE DE PAGINA-----------------------------------------------*/
+#pie-pagina {    
+    clear: both;
+    width: 100%;
+    height: 420px;
+    display: block;
+    text-align: center;
+    background-color: #000;
+    /* position: sticky;
+    bottom: 0;   */
+}
+
+#pie-pagina > p{
+
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+    margin: 0;
+   
+}
+
+#seccion-pie-pagina{
+    width: 1280px;
+    height: 0 auto;
+    
+    
+}
+
+
+
+/*------------------COLECCION--------------------------*/
+
+#coleccion{
+    width: 1280px;
+    height: 0 auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
+}
+
+.ropa-general{
+    width: 1230px;;
+    height: 0 auto;
+    margin: 0 auto;
+
+}
+
+.ropa-general > ul{
+    padding: 0;
+    margin: 0 auto;
+
+
+}
+   
+
+.ropa-general ul > li{
+    width:  280px;
+    height: 0 auto;
+    margin: 12px;
+    display: inline-block;
+   
+}
+
+.galeria{
+    width:  280px;
+    height: 0 auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+   
+}
+
+
+
+
+
+/*-----------------------haz tu pedido------------------------*/
+
+
+#haz-tu-pedido img {
+    width: 100%;
+    object-fit: contain;
+}
+            
+                    
+             
+#pedido{
+    background: #1C1C1C;
+    width: 360px;
+    border: 1px solid 4e4d4d;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 0 10px #000;
+    margin: 60px auto;
+    
+}
+
+#pedido h2{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 40pt;
+    margin: 0px auto;
+    font-family: "Helvetica Neue";
+    font-style: italic;
+    
+
+}
+
+#pedido input{
+    width: 280px;
+    height: 35px;
+    padding: 0px 10px;
+    color: black;
+    text-align: center;
+    margin: 5px 30px;
+    
+
+
+}
+
+textarea{
+    margin: 5px 30px;
+    color: black;
+
+}
+
+#pedido button{
+    width: 135px;
+    margin:  5px 0px 30px 30px;
+    height: 50px;
+    border: 1px solid #232323;
+    box-shadow: 0px 2px 0px #000;
+    -moz-box-shadow: 0px 2px 0px #000;
+    -webkit-box-shadow: 0px 2px 0px #000;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+
+}
+
+#pedido button:hover{
+    background:dodgerblue;
+    color: white;
+}
+
+#pedido button:active{
+    background: #137E8A;
+}
+
+
+
+
